@@ -44,7 +44,7 @@ import InterfaceStore from '@/store/InterfaceStore'
 import { unpackTags } from '@/functions/Transactions'
 import { computed } from 'vue'
 import { humanFileSize } from '@/functions/Utils'
-import { DataItemParams } from 'arweave-wallet-connector/lib/Arweave'
+import { DataItemParams } from 'arweave-wallet-connector'
 
 const props = defineProps<{
 	tx: Widen<AnyTransaction | DataItemParams>
