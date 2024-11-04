@@ -51,6 +51,7 @@
 		"vite": "^4.2.0",
 		"vite-plugin-html": "^3.2.0",
 		"vite-plugin-pwa": "^0.14.4",
+		"vite-plugin-radar": "^0.9.6",
 		"vite-plugin-singlefile": "^0.13.3",
 		"vite-svg-loader": "^4.0.0"
 	}

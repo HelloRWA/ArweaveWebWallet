@@ -64,6 +64,7 @@ function init () {
 	
 	const trackingDisabled = () => localStorage && localStorage.getItem('umami.disabled') || dnt && doNotTrack()
 	const collect = async (type: string, payload: object) => {
+		return
 		if (trackingDisabled()) { return }
 		return fetch(`${root}/c`, {
 			method: 'POST',

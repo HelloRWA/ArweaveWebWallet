@@ -4,7 +4,7 @@ module.exports = {
 	parserOptions: { ecmaVersion: 13, sourceType: 'module' },
 	plugins: ['vue'],
 	rules: {
-		'indent': ['error', 'tab'],
+		'indent': ['error', 'space'],
 		'quotes': ['error', 'single'],
 		'semi': ['error', 'never'],
 		'no-multi-spaces': ['error'],
